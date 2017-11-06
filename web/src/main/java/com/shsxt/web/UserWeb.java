@@ -24,5 +24,6 @@ public class UserWeb  extends HttpServlet{
         String pwd = req.getParameter("pwd");
         service.save(name,pwd);
         System.out.println(name+"=web="+pwd);
+        System.out.println("你好");
     }
 }
